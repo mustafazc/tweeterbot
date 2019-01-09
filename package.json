@@ -1,0 +1,33 @@
+{
+  "name": "tweeterbot",
+  "version": "0.0.1",
+  "description": "A tweet autoresponder",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafazc/tweeterbot.git"
+  },
+  "keywords": [
+    "twitter",
+    "tweet",
+    "responder"
+  ],
+  "author": "mustafazc",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/mustafazc/tweeterbot/issues"
+  },
+  "homepage": "https://github.com/mustafazc/tweeterbot#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "twit": "^2.2.11",
+    "winston": "^3.1.0"
+  }
+}
